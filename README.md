@@ -106,7 +106,9 @@ data/embeddings.pkl
 ## ▶️ Running Backend Server
 
 ```
-python -m src.api
+Terminal 1:
+python -m uvicorn src.api:app --reload
+
 ```
 
 ---
@@ -114,6 +116,7 @@ python -m src.api
 ## 🌐 Run Web Application
 
 ```
+Terminal 2:
 streamlit run app.py
 ```
 
