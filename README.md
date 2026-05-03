@@ -178,7 +178,7 @@ If this file is missing, the system will not function correctly.
 
 ## 🎥 Demo
 
-(Add your demo video link here)
+Demo video is attached as an MP4 file in the submission.
 
 ---
 
