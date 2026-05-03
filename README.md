@@ -107,6 +107,7 @@ data/embeddings.pkl
 
 ```
 Terminal 1:
+venv\Scripts\activate
 python -m uvicorn src.api:app --reload
 
 ```
@@ -117,6 +118,8 @@ python -m uvicorn src.api:app --reload
 
 ```
 Terminal 2:
+venv\Scripts\activate
+pip install streamlit
 streamlit run app.py
 ```
 
