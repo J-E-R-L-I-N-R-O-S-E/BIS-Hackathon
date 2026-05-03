@@ -76,7 +76,7 @@ pip install -r requirements.txt
 ### Run Inference (Evaluation)
 
 ```
-python inference.py --input data/test_data.json --output output.json
+python inference.py --input data/test_data.json --output output.json --test
 ```
 
 ### Run Web Application
@@ -103,7 +103,8 @@ python eval_script.py --results output.json
 * Applicable for real-world compliance scenarios
 
 ---
-
+Final Submission Command (Used by Judges)
+python inference.py --input hidden_private_dataset.json --output team_results.json
 ## Demo
 
 (Add your demo video link here)
