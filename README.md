@@ -106,7 +106,7 @@ data/embeddings.pkl
 ## ▶️ Running Backend Server
 
 ```
-python src/api.py
+python -m src.api
 ```
 
 ---
